@@ -68,7 +68,7 @@ const Home = () => {
             PORTFOLIO
           </a>
         
-          <a href="https://drive.google.com/file/d/1M7YO2JuiYFxsDzhwJAlzeDeaWm9l_Z4s/view?usp=sharing" rel="noreferrer" target="_blank" className="flat-button">
+          <a href="https://drive.google.com/file/d/1v_L4SqBGjsLIb92V1R31jrBMDORWBw9X/view?usp=sharing" rel="noreferrer" target="_blank" className="flat-button">
             RESUME
           </a>
         </div>
