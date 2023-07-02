@@ -13,21 +13,21 @@ import { Link, NavLink } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
+      <Link className="logo" to="/react-portfolio">
         <img src={LogoS} alt="Logo" />
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
       </Link>
       <nav>
-        <NavLink exact="true" activeclassname="active" to="/">
+        <NavLink exact="true" activeclassname="active" to="/react-portfolio">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="about-link" to="/about">
+        <NavLink activeclassname="active" className="about-link" to="/react-portfolio/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"
           className="contact-link"
-          to="/contact"
+          to="/react-portfolio/contact"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
